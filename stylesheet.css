@@ -1,0 +1,114 @@
+/* * {
+
+	border: 1px solid black;
+} */
+
+#logo {
+
+	margin: auto;
+	margin-top: 125px;
+	width: 300px;
+	margin-bottom: 20px;
+
+}
+
+#search_bar {
+	margin: auto;
+	height: 25px;
+	width: 435px;
+	
+}
+
+#nav_bar {
+	margin: 15px 30px 0px 0px;
+	position: fixed;
+	top: 0;
+	right:0;
+	
+}
+
+/* removes bullets from ul, and floats children to the right */
+.nav_align {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	
+}
+
+/* displays nav_bar options horizontally */
+li {
+	display: inline;
+	font-size: 13px;
+	font-family: arial,sans-serif;
+}
+
+/* Google Username */
+#t1 {
+	
+	position: relative;
+	margin-right: 15px;
+	top: -12px;
+	
+	
+}
+/* Gmail Link */
+#t2 {
+	
+	position: relative;
+	margin-right: 15px;
+	top: -12px;
+	
+	
+}
+
+/* Images Link */
+#t3{
+	
+	position: relative;
+	margin-right: 17px;
+	top: -12px;
+	
+}
+
+/* Grid image */
+#t4 {
+	margin-right: 13px;
+	position: relative;
+	top: -7px;
+}
+
+/* Notification Image */
+#t5 {
+	margin-right: 9px;
+	position: relative;
+	top: -5px;
+}
+
+#mic {
+	position: relative;
+	z-index: 1;
+	float: right;
+	left: -33px;
+	bottom: -6px;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #f2f2f2;
+	
+	
+}
+
+body {
+	margin: 0px;
+
+}
+
+
+.bot_nav {
+	margin-right: 25px;
+	color: #666;
+}
